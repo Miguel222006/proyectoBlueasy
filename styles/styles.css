@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns:repeat(4, 20vh);
+    grid-template-rows: 20vh;
+    margin: 10px;
+}
+
+.cell {
+    /* width: 100vw;
+    height: 100vh; */
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns:repeat(4, 20vh);
+    grid-template-rows:repeat(2,20vh);
+    margin: 10px;
+}
+
+.celda {
+    /* width: 100vw;
+    height: 100vh; */
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.unoo {
+    background-image: url(../assets/photo01.png);
+}
+
+.doss {
+    background-image: url(../assets/photo02.png);
+}
+
+.tress {
+    background-image: url(../assets/photo03.png);
+}
+
+.cuatroo {
+    background-image: url(../assets/photo04.png);
+}
+
+.cincoo {
+    background-image: url(../assets/photo05.png);
+}
+
+.seiss {
+    background-image: url(../assets/photo06.png);
+}
+
+.sietee {
+    background-image: url(../assets/photo07.png);
+}
+
+.ochoo {
+    background-image: url(../assets/photo08.png);
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns:repeat(2, 30vh);
+    grid-template-rows:50vh;
+    margin: 10px;
+}
+
+.celdaa {
+    /* width: 100vw;
+    height: 100vh; */
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.diez {
+    background-image: url(../assets/VimeoVideo.png);
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns:repeat(2, 30vh);
+    grid-template-rows:50vh;
+    margin: 10px;
+}
+
+.celdas {
+    /* width: 100vw;
+    height: 100vh; */
+    border: 1px solid red;
+    margin: 10px;
+}
