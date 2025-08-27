@@ -104,112 +104,249 @@ header a {
 
 .grid2 {
     display: grid;
-    grid-template-columns: repeat(4, 20vh);
-    grid-template-rows: repeat(2, 20vh);
-    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 30px;
+    /* margin: 10px; */
+
 }
 
 .celda {
     /* width: 100vw;
     height: 100vh; */
-    border: 1px solid red;
-    margin: 10px;
+    /* border: 1px solid red; */
+    /* margin: 10px; */
 }
 
 .unoo {
     background-image: url(../assets/photo01.png);
+    background-size: cover;
 }
 
 .doss {
     background-image: url(../assets/photo02.png);
+    background-size: cover;
 }
 
 .tress {
     background-image: url(../assets/photo03.png);
+    background-size: cover;
 }
 
 .cuatroo {
     background-image: url(../assets/photo04.png);
+    background-size: cover;
 }
 
 .cincoo {
     background-image: url(../assets/photo05.png);
+    background-size: cover;
 }
 
 .seiss {
     background-image: url(../assets/photo06.png);
+    background-size: cover;
 }
 
 .sietee {
     background-image: url(../assets/photo07.png);
+    background-size: cover;
 }
 
 .ochoo {
     background-image: url(../assets/photo08.png);
+    background-size: cover;
 }
 
 .grid3 {
     display: grid;
-    grid-template-columns: repeat(2, 30vh);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50vh;
-    margin: 10px;
 }
 
-.celdaa {
+.nueve {
     /* width: 100vw;
     height: 100vh; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px;
+    padding-left: 38%;
+    padding-right: 13%;
+    padding-top: 6%;
 }
 
 .diez {
-    background-image: url(../assets/VimeoVideo.png);
+    /* background-image: url(../assets/VimeoVideo.png); */
+    /* background-repeat: no-repeat; */
+    padding-top: 8%;
 }
 
 .grid4 {
     display: grid;
-    grid-template-columns: repeat(2, 30vh);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50vh;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .celdas {
     /* width: 100vw;
     height: 100vh; */
-    border: 1px solid red;
-    margin: 10px;
+    /* border: 1px solid red; */
+    /* margin: 10px; */
 }
 
-.section2 {}
+.section2 {
+    padding: 4% 15%;
+}
 
 .portfolio {
     display: flex;
+    justify-content: space-between;
+
 }
 
 .portfolio h1 {
     color: #515F67;
-    margin-left: 15%;
-    margin-top: 2%;
     font-weight: 100;
+}
+
+.linea {
+    background-color: grey;
+    width: 5vh;
+    height: 3px;
+    margin-bottom: 70px;
 }
 
 
 .referencias2 {
-    margin-left: 40%;
-    margin-top: 2%;
     font-weight: 600;
 }
 
 
 .referencias2 a {
     color: #515F67;
-    padding-left: 15px;
+    padding-left: 13px;
     text-decoration-line: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .all {
     color: #4AB5E3 !important;
     border: solid 2px #4AB5E3;
     padding: 2px 12px 3px 12px;
+}
+
+.section3 {
+    background-color: #515F67;
+    color: white;
+}
+
+.linea2 {
+    background-color: white;
+    width: 5vh;
+    height: 2px;
+}
+
+.grid3 h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.grid3 p {
+    padding-top: 30px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.buttonVisit {
+    padding-top: 7%;
+}
+
+.visit {
+    color: #353F46;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid #353F46;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.section4 {
+    background-color: #4BCAFF;
+    color: white;
+    padding: 70px 0px 70px 0px;
+}
+
+.tw {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tw h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.tw img {
+    margin: 10px;
+}
+
+.linea3 {
+    background-color: white;
+    width: 5vh;
+    height: 2px;
+}
+
+
+.section4 p {
+    padding-left: 23%;
+    line-height: 45px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 2%;
+}
+
+.section5 {
+    background-image: url(../assets/bg_whoIs.png);
+    color: white;
+    padding-bottom: 32px;
+}
+
+.linea4 {
+    background-color: white;
+    width: 5vh;
+    height: 2px;
+}
+
+.once {
+        padding: 120px 0px 0px 370px;
+}
+
+.once h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.once p {
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 30px;
+    width: 57vh;
+}
+
+.doce {
+    padding: 180px 0px 0px 30px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.imgs {
+
+}
+
+.imgs1 {
+    padding-left: 15px;
+}
+
+.doce p{
+    width: 28vw;
+    padding-bottom: 30px;
 }
