@@ -43,11 +43,8 @@ header a {
 }
 
 .section1 {
-    /* background-image: url(../assets/Fondo.png);
-    padding-bottom: 35%; */
     text-align: center;
     padding: 14.5%;
-    /* background-size: cover; */
 }
 
 .textos {
@@ -69,19 +66,19 @@ header a {
     font-size: 2.7rem;
     color: white;
     font-weight: 100;
-    /* background-color: rgb(67, 78, 85, 0.87); */
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0 1rem;
 }
 
 .grid1 {
     display: grid;
-    grid-template-columns: repeat(4, 35vh);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 30vh;
     background-color: #4BCAFF;
     justify-content: center;
     color: white;
-    padding-top: 8%;
+    padding: 3% 15%;
+    gap: 39px;
 }
 
 .grid1 h1 {
@@ -96,9 +93,6 @@ header a {
 }
 
 .cell {
-    /* width: 100vw;
-    height: 100vh; */
-    /* border: 1px solid red; */
     margin: 10px;
 }
 
@@ -107,16 +101,9 @@ header a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 300px);
     gap: 30px;
-    /* margin: 10px; */
 
 }
 
-.celda {
-    /* width: 100vw;
-    height: 100vh; */
-    /* border: 1px solid red; */
-    /* margin: 10px; */
-}
 
 .unoo {
     background-image: url(../assets/photo01.png);
@@ -161,38 +148,18 @@ header a {
 .grid3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50vh;
+    grid-template-rows: 35vh;
+    gap: 212px;
 }
 
-.nueve {
-    /* width: 100vw;
-    height: 100vh; */
-    /* border: 1px solid red; */
-    margin: 10px;
-    padding-left: 38%;
-    padding-right: 13%;
-    padding-top: 6%;
-}
-
-.diez {
-    /* background-image: url(../assets/VimeoVideo.png); */
-    /* background-repeat: no-repeat; */
-    padding-top: 8%;
-}
 
 .grid4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50vh;
+    grid-template-rows: 41vh;
     /* margin: 10px; */
 }
 
-.celdas {
-    /* width: 100vw;
-    height: 100vh; */
-    /* border: 1px solid red; */
-    /* margin: 10px; */
-}
 
 .section2 {
     padding: 4% 15%;
@@ -238,6 +205,7 @@ header a {
 .section3 {
     background-color: #515F67;
     color: white;
+    padding: 3% 15%;
 }
 
 .linea2 {
@@ -272,12 +240,12 @@ header a {
 .section4 {
     background-color: #4BCAFF;
     color: white;
-    padding: 70px 0px 70px 0px;
+    padding: 3% 15%;
 }
 
 .tw {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .tw h1 {
@@ -297,7 +265,6 @@ header a {
 
 
 .section4 p {
-    padding-left: 23%;
     line-height: 45px;
     font-size: 25px;
     font-weight: 100;
@@ -307,17 +274,13 @@ header a {
 .section5 {
     background-image: url(../assets/bg_whoIs.png);
     color: white;
-    padding-bottom: 32px;
+    padding: 3% 15%;
 }
 
 .linea4 {
     background-color: white;
     width: 5vh;
     height: 2px;
-}
-
-.once {
-        padding: 120px 0px 0px 370px;
 }
 
 .once h1 {
@@ -333,20 +296,159 @@ header a {
 }
 
 .doce {
-    padding: 180px 0px 0px 30px;
     font-weight: 100;
     font-size: 14px;
 }
 
-.imgs {
-
-}
 
 .imgs1 {
     padding-left: 15px;
 }
 
-.doce p{
-    width: 28vw;
+.doce p {
     padding-bottom: 30px;
+}
+
+.section6 {
+    padding: 3% 15%;
+}
+
+.section6 p {
+    line-height: 45px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 2%;
+    color: #515F67;
+
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.comillas {
+    margin: 10px;
+}
+
+.testimonials h1 {
+    font-weight: 100;
+    font-size: 30px;
+    color: #515F67;
+}
+
+.walter {
+    color: #4BCAFF !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.linea5 {
+    background-color: #515F67;
+    width: 5vh;
+    height: 2px;
+}
+
+.section7 {
+    background-image: url(../assets/bg_contact.png);
+    color: white;
+    padding: 3% 15%;
+}
+
+.contact {
+    display: flex;
+        padding-bottom: 3%;
+}
+
+.contact h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.linea6 {
+    background-color: white;
+    width: 5vh;
+    height: 2px;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    gap: 30px;
+}
+
+.Con {
+    /* border: 1px, solid red; */
+}
+
+.Con p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.full {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.full input {
+    width: 80%;
+    height: 6vh;
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.EMAIL input {
+    width: 80%;
+    height: 6vh;
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.EMAIL {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+label {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 25vh;
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.textForm2 {
+    list-style: none;
+}
+
+.buttonFin {
+    padding-top: 2%;
+}
+
+.messButton {
+    background-color: #4BCAFF;
+    color: white;
+    border: none;
+    width: 27%;
+    height: 6vh;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer {
+    padding: 3% 15%;
+}
+
+.foot {
+    display: flex;
 }
