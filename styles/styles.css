@@ -358,7 +358,7 @@ header a {
 
 .contact {
     display: flex;
-        padding-bottom: 3%;
+    padding-bottom: 3%;
 }
 
 .contact h1 {
@@ -446,9 +446,27 @@ textarea {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 63, 71);
+    color: gray;
     padding: 3% 15%;
 }
 
 .foot {
     display: flex;
+    justify-content: space-between;
+}
+
+.foot h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.foot span {
+        margin: 0px 10px;
+}
+
+footer p {
+    font-size: 12px;
 }
