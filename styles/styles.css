@@ -552,6 +552,10 @@ footer p {
         font-size: 16px;
     }
 
+    .grid4 {
+        grid-template-rows: 33vh;
+    }
+
     .section5 {
         padding: 3% 15%;
         background-size: cover;
@@ -559,8 +563,8 @@ footer p {
     }
 
     .imgs1 {
-    padding-left: 11px;
-}
+        padding-left: 11px;
+    }
 
     .once p {
         width: 40vh;
@@ -625,22 +629,137 @@ footer p {
 
 @media (max-width: 920px) {
 
-        header h1 {
+    .textos h1 {
+        font-size: 1.4rem;
+    }
+
+    header h1 {
         font-size: 20px;
     }
 
     header a {
-    font-size: 11px;
-}
+        font-size: 11px;
+    }
+
+    .grid1 h1 {
+        font-size: 20px;
+    }
+
+    .grid1 p {
+        font-size: 10px;
+    }
+
+    .portfolio h1 {
+        font-size: 20px;
+    }
+
+    .referencias2 a {
+        font-size: 10px;
+    }
+
+    .grid2 {
+        grid-template-rows: repeat(2, 112px);
+    }
 
     .section3 {
-        padding: 7% 10%;
+        padding: 7% 15%;
+    }
+
+    .section3 img {
+        zoom: 0.45;
+        padding-top: 25%;
+    }
+
+    .grid3 h1 {
+        font-size: 20px;
     }
 
     .grid3 p {
         width: 30vh;
+        font-size: 10px;
+    }
+
+    .visit {
+        padding: 10px 33px 10px 33px;
+        font-size: 10px;
+    }
+
+    .tw h1 {
+        font-size: 20px;
+    }
+
+    .section4 p {
+        font-size: 14px;
+    }
+
+    .grid4 {
+        grid-template-rows: 30vh;
+    }
+
+    .once h1 {
+        font-size: 20px;
+    }
+
+    .once p {
+        font-size: 12px;
+        width: 35vh;
+    }
+
+    .doce {
+        padding-top: 60px;
         font-size: 12px;
     }
+
+    .doce p {
+        padding-bottom: 10px;
+    }
+
+    .imgs1 {
+        padding-left: 10px;
+        zoom: 0.6;
+    }
+
+    .imgs2 {
+        zoom: 0.6;
+    }
+
+    .testimonials h1 {
+        font-size: 20px;
+    }
+
+    .section6 p {
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .comillas {
+    margin: 0px;
+}
+
+        .walter {
+        font-size: 12px !important;
+    }
+
+        .contact h1 {
+        font-size: 20px;
+    }
+
+        .Con {
+        font-size: 10px;
+    }
+
+        .Con p {
+        font-size: 11px;
+    }
+
+    textarea {
+    height: 20vh;
+}
+
+.messButton {
+    height: 5vh;
+    font-size: 12px;
+}
 }
 
 /* FIN RESPONSIVE 920 */
