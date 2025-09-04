@@ -685,8 +685,8 @@ footer p {
     }
 
     .tw img {
-    margin: 4px;
-}
+        margin: 4px;
+    }
 
     .tw h1 {
         font-size: 20px;
@@ -737,33 +737,172 @@ footer p {
     }
 
     .comillas {
-    margin: 0px;
-}
+        margin: 0px;
+    }
 
-        .walter {
+    .walter {
         font-size: 12px !important;
     }
 
-        .contact h1 {
+    .contact h1 {
         font-size: 20px;
     }
 
-        .Con {
+    .Con {
         font-size: 10px;
     }
 
-        .Con p {
+    .Con p {
         font-size: 11px;
     }
 
     textarea {
-    height: 20vh;
-}
+        height: 20vh;
+    }
 
-.messButton {
-    height: 5vh;
-    font-size: 12px;
-}
+    .messButton {
+        height: 5vh;
+        font-size: 12px;
+    }
 }
 
 /* FIN RESPONSIVE 920 */
+
+
+/* INICIO RESPONSIVE 768 */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    header a {
+        padding-left: 0px;
+        font-size: 7px;
+    }
+
+    .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 20vh;
+        padding: 10% 15%;
+    }
+
+    .textos h1 {
+        font-size: 1rem;
+    }
+
+    .grid1 h1 {
+        font-size: 15px;
+    }
+
+    .portfolio h1 {
+        font-size: 15px;
+    }
+
+    .referencias2 a {
+        font-size: 5px;
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 153px);
+    }
+
+    .section3 img {
+        width: 100%;
+        padding-top: 25%;
+    }
+
+    .grid3 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 20vh;
+        gap: 25px;
+    }
+
+    .grid3 h1 {
+        font-size: 15px;
+    }
+
+    .grid3 p {
+        width: 100%;
+    }
+
+    .tw h1 {
+        font-size: 15px;
+    }
+
+    .section4 p {
+        line-height: 23px;
+        font-size: 11px;
+    }
+
+    .grid4 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 20vh;
+    }
+
+    .once h1 {
+        font-size: 15px;
+    }
+
+    .testimonials h1 {
+        font-size: 15px;
+    }
+
+    .comillas {
+        zoom: 0.7;
+    }
+
+    .once p {
+        padding-top: 20px;
+    }
+
+    .doce {
+        padding-top: 40px;
+    }
+
+    .contact h1 {
+        font-size: 15px;
+    }
+
+    .grid5 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .full input {
+        width: 100%;
+    }
+
+    .EMAIL input {
+        width: 100%;
+    }
+
+    .full {
+        grid-row: 3 / 3;
+    }
+
+    .EMAIL {
+        grid-column: 1 / 2;
+        grid-row: 4 / 4;
+    }
+
+    textarea {
+        height: 15vh;
+    }
+
+    .messButton {
+        width: 100%;
+    }
+
+        .foot h5 {
+        font-size: 7px;
+    }
+
+        footer p {
+        font-size: 7px;
+    }
+}
+
+/* FIN RESPONSIVE 768 */
