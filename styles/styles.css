@@ -684,6 +684,10 @@ footer p {
         font-size: 10px;
     }
 
+    .tw img {
+    margin: 4px;
+}
+
     .tw h1 {
         font-size: 20px;
     }
