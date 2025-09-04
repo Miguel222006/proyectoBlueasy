@@ -625,6 +625,7 @@ footer p {
 /* FIN RESPONSIVE 1279 */
 
 
+
 /* INICIO RESPONSIVE 920 */
 
 @media (max-width: 920px) {
@@ -769,6 +770,7 @@ footer p {
 /* FIN RESPONSIVE 920 */
 
 
+
 /* INICIO RESPONSIVE 768 */
 
 @media (max-width: 768px) {
@@ -896,13 +898,85 @@ footer p {
         width: 100%;
     }
 
-        .foot h5 {
+    .foot h5 {
         font-size: 7px;
     }
 
-        footer p {
+    footer p {
         font-size: 7px;
     }
 }
 
 /* FIN RESPONSIVE 768 */
+
+
+
+/* INICIO RESPONSIVE 480 */
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 3% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .referencias {
+        margin-left: 0%;
+    }
+
+    .textos h1 {
+        font-size: 0.7rem;
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 245px);
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .linea {
+        margin-bottom: 10px;
+    }
+
+    .referencias2 a {
+        font-size: 7px;
+    }
+
+    .referencias2 {
+        font-weight: 600;
+        padding-bottom: 15px;
+    }
+
+    .once p {
+        font-size: 11px;
+        width: 30vh;
+    }
+
+    .section4 p {
+        line-height: 23px;
+        font-size: 10px;
+    }
+
+    .section6 p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .walter {
+        font-size: 10px !important;
+    }
+
+    .foot h5 {
+        font-size: 6px;
+    }
+
+    footer p {
+        font-size: 6px;
+    }
+}
+
+/* FIN RESPONSIVE 480 */
